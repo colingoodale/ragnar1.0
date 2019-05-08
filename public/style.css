@@ -334,19 +334,13 @@ video {
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Freightsans-Bold', Fallback, sans-serif;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
-}
+  }
 .cap-exp-text{
   display: inline-block;
   font-size: .75em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #133359;
   padding-left: 50px;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-text-white{
   display: inline-block;
@@ -354,9 +348,6 @@ video {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:white;
   padding-left: 50px;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-text-white-strategic{
   display: inline-block;
@@ -365,9 +356,6 @@ video {
   color:white;
   padding-left: 20%;
   padding-right: 42.5px;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-text-identifying{
   display: inline-block;
@@ -376,9 +364,6 @@ video {
   color: #133359;
   padding-right: 20%;
   padding-left: 20%;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 
 .cap-exp-title-msg-tag1{
@@ -390,9 +375,6 @@ video {
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Freightsans-Bold', Fallback, sans-serif;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-text-msg-tag1{
   display: inline-block;
@@ -401,9 +383,6 @@ video {
   color: #133359;
   padding-left: 20%;
   padding-right: 20%;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-title-msg-tag12{
   font-size: 1.25em;
@@ -415,9 +394,6 @@ video {
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Freightsans-Bold', Fallback, sans-serif;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-text-msg-tag12{
   display: inline-block;
@@ -427,9 +403,6 @@ video {
 
   padding-left: 20%;
   padding-right: 20%;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-title-white{
   font-size: 1.25em;
@@ -440,9 +413,6 @@ video {
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Freightsans-Bold', Fallback, sans-serif;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 
 .cap-exp-title-focus{
@@ -454,9 +424,6 @@ video {
   padding-left: 20%;
   padding-right: 20%;
   font-family: 'Freightsans-Bold', Fallback, sans-serif;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .cap-exp-text-focus{
   display: inline-block;
@@ -465,9 +432,6 @@ video {
   color: #133359;
   padding-left: 62.5px;
   padding-right: 42.5px;
-  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
-  0px 8px 13px rgba(128,128,128,0.1),
-  0px 18px 23px rgba(128,128,128,0.1);
 }
 .polling-survey{
   -webkit-background-size: 100% 100%;
