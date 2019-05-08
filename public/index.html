@@ -487,28 +487,36 @@
           Contact Ragnar</h1>
       </div>
       <div class="col-sm-12 capabilities-row">
-        <div class="col-sm-3">
+        <div class="col-cont">
 
           <h2 class="contact-text not-okc">D.C.</h2>
 
           <p class="case-text-contact">103 E St SE</p>
-          <p class="case-text-contact">Washington DC 20003</p>
+          <p class="case-text-contact">Washington D.C. 20003</p>
 
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-cont">
           <h2 class="contact-text not-okc">Austin</h2>
           <p class="case-text-contact">1005 Congress Ave, Suite 460</p>
           <p class="case-text-contact">Austin, Texas 78701</p>
         </div>
-        <div class="col-sm-3">
+        <div class="col-cont">
           <h2 class="contact-text">Oklahoma City</h2>
           <p class="case-text-contact">4215 N Classen Blvd, Suite 200</p>
           <p class="case-text-contact">Oklahoma City, OK 73118</p>
         </div>
-        <div class="col-sm-3">
+        <div class="col-cont">
 
           <h2 class="contact-text not-okc">Bend, Oregon</h2>
+          <p class="case-text-contact">P.O. BOX</p>
+          <p class="case-text-contact">Bend, OR ZIP</p>
+        </div>
+        <div class="col-cont">
+
+          <h2 class="contact-text not-okc">Tallahassee, Florida</h2>
+          <p class="case-text-contact">P.O. BOX</p>
+          <p class="case-text-contact">Tallahassee, FL ZIP</p>
         </div>
       </div>
 
@@ -524,15 +532,13 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="inputBox ">
-                    <div class="inputText">First Name</div>
-                    <input type="text" name="" class="input">
+                    <input type="text" name="" placeholder="First Name" onfocus="this.placeholder = ''" class="input">
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="inputBox">
-                    <div class="inputText">Last Name</div>
-                    <input type="text" name="" class="input">
+                    <input type="text" name="" placeholder="Last Name" onfocus="this.placeholder = ''" class="input">
                   </div>
                 </div>
               </div>
@@ -540,15 +546,16 @@
               <div class="row">
                 <div class="col-sm-6">
                   <div class="inputBox">
-                    <div class="inputText">Email</div>
-                    <input type="text" name="" class="input">
+
+                    <input type="text" name="" placeholder="Email" onfocus="this.placeholder = ''" class="input">
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="inputBox">
-                    <div class="inputText">Mobile Number</div>
-                    <input type="text" name="" class="input">
+
+                    <input type="text" name="" placeholder="Mobile Number" onfocus="this.placeholder = ''"
+                      class="input">
                   </div>
                 </div>
               </div>
@@ -556,8 +563,7 @@
               <div class="row">
                 <div class="col-sm-12">
                   <div class="inputBox">
-                    <div class="inputText">Message</div>
-                    <textarea class="input"></textarea>
+                    <textarea placeholder="Message" onfocus="this.placeholder=''" class="input"></textarea>
                   </div>
                 </div>
               </div>
