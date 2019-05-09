@@ -1115,8 +1115,8 @@ textarea{
 }
 
 .infographic-title{
-  font-size: 1.5em;
-  font-family: 'Freightsans-Bold', Fallback, sans-serif;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   text-align: center;
 
