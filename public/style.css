@@ -614,7 +614,7 @@ video {
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: visible;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   list-style-type: none;
@@ -898,9 +898,6 @@ video {
 }
 
 /*Contact*/
-#contact{
-  margin-top: 50px;
-}
 .col-cont{
   width: 20%;
 }
