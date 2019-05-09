@@ -457,6 +457,31 @@ video {
     background-repeat: no-repeat;
   background-image: url("./files/Cherry_Blossoms.png");
 }
+@media only screen and (max-width: 1020px){
+  .dc-stretch{
+    height: 450px;
+  }
+}
+@media only screen and (min-width:1020) and (max-width:1106){
+  .dc-stretch{
+    height: 440px;
+  }
+}
+@media only screen and (max-width:1300px){
+  .dc-stretch{
+    height: 450px;
+  }
+}
+@media only screen and (max-width:1798px){
+  .dc-stretch{
+    height: 450;
+  }
+}
+@media only screen and (min-width:1800px) {
+  .dc-stretch{
+    height:500px;
+  }
+}
 .cap-img-bord{
   width: 40%;
 }
