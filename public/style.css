@@ -25,6 +25,9 @@ header {
   
   section {
     background-color: rgb(235, 235, 235);
+    margin-top: -60px;
+    padding-top:60px;
+    margin-bottom: 30px;
   }
   #video-head{
     padding: 0px;
@@ -439,7 +442,6 @@ video {
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-  background-image: url("./files/Boats_v2.png");
 }
 .tree-stretch{
   -webkit-background-size: 100% 100%;
@@ -447,7 +449,6 @@ video {
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-  background-image: url("./files/Trees.png");
 }
 .dc-stretch{
   -webkit-background-size: 100% 100%;
@@ -455,7 +456,7 @@ video {
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-  background-image: url("./files/Cherry_Blossoms.png");
+  background-image: url("./files/Cherry_Blossoms.jpg");
 }
 @media only screen and (max-width: 1020px){
   .dc-stretch{
