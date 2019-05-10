@@ -151,9 +151,19 @@ header {
     padding-top: 118px;
   }
 }
+@media only screen and (max-width:1480px){
+  body{
+    padding-top: 180px;
+  }
+}
 @media only screen and (min-width: 1500px) {
   body{
-    padding-top: 122.5px;
+    padding-top: 185px;
+  }
+}
+@media only screen and (min-width: 1520px) {
+  body{
+    padding-top: 184px;
   }
 }
 
@@ -255,8 +265,11 @@ video {
 }
 
 /*Capabilities*/
-#about{
-  background-color:rgb(235, 235, 235);
+#gradient-wrapper{
+  background-image:
+  linear-gradient(
+    #ebebeb, #c9d6e3
+  );
 }
 .split{
   height: auto;
@@ -268,20 +281,6 @@ video {
   margin-top: 25px;
 }
 .spacer{
-  height: 150px;
-  display: inline-block;
-}
-
-
-.spacer2{
-  height: 50px;
-  display: inline-block;
-}
-.spacer3{
-  height: 40px;
-  display: inline-block;
-}
-.spacer4{
   height: 100px;
   display: inline-block;
 }
@@ -309,6 +308,7 @@ video {
   .capabilities-column{
     flex: 100%;
     width: 100%;
+    padding: 0px;
   }
 }
 .capabilities-row-hex{
@@ -436,27 +436,20 @@ video {
   padding-left: 62.5px;
   padding-right: 42.5px;
 }
-.polling-survey{
-  -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.tree-stretch{
-  -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+
 .dc-stretch{
+  padding-top: 10px;
   -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   background-image: url("./files/Cherry_Blossoms.jpg");
+}
+@media screen only and (max-width: 376px){
+  .dc-stretch{
+
+  }
 }
 @media only screen and (max-width: 1020px){
   .dc-stretch{
@@ -548,7 +541,7 @@ video {
 .resp-title{
   font-size: 1.63em;
 }
-@media only screen and (max-width:376px) {
+@media only screen and (max-width: 376px){
   .resp-title{
     font-size: 1em;
   }
@@ -556,14 +549,16 @@ video {
 .resp-text{
   font-size: 1.1em;
 }
-@media only screen and (max-width:376px) {
-  .resp-text{
-    font-size: .25em;
-  }
-}
+
 @media only screen and (max-width:1024px) {
   .resp-text{
     font-size:1em;
+  }
+}
+@media only screen and (max-width:376px) {
+  .resp-text{
+    font-size: .65em;
+    padding: 0px;
   }
 }
 
@@ -925,6 +920,9 @@ video {
 }
 
 /*Contact*/
+#contact{
+  margin-bottom: 0px;
+}
 .col-cont{
   width: 20%;
   margin-bottom: 15px;
