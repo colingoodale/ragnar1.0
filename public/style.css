@@ -571,6 +571,7 @@ video {
 /*Infographics*/
 #carousel{
   background-color: #133359;
+  padding-bottom: 40px;
 }
 /*Case Studies*/
 .case-study-title{
